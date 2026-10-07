@@ -1,0 +1,11 @@
+{
+  "Path": "github.com/bassosimone/httptestx",
+  "Version": "v0.0.0-20261005145309-8a37350e882e",
+  "Sum": "h1:FUenSg9i0K8UiD0SII5ogoO56CZaUbxlo9lBXe3tSlg=",
+  "GoModSum": "h1:CXntY0x2Z10QR8jIjoaegN1Ptv+ib5hM5v+RtaHCCLw=",
+  "Origin": {
+    "VCS": "git",
+    "URL": "https://github.com/bassosimone/httptestx",
+    "Hash": "8a37350e882ee9ca44f4e0763f98b17178354e36"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Path": "github.com/bassosimone/pkitest",
+  "Version": "v0.0.0-20261005145452-7b85881f912d",
+  "Sum": "h1:sSnMO31joutMWujPwqs+scoRN5twRObMkk2XZRN71aE=",
+  "GoModSum": "h1:2KJWmQuaY/fn7rrufVu3EwbfqO5Py+oNj3ln9WknUmE=",
+  "Origin": {
+    "VCS": "git",
+    "URL": "https://github.com/bassosimone/pkitest",
+    "Hash": "7b85881f912dea41850e6a0a2c4b0de758c530b5"
+  }
+}

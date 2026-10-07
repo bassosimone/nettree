@@ -1,0 +1,11 @@
+{
+  "Path": "github.com/bassosimone/netstub",
+  "Version": "v0.0.0-20261005145417-323ef9359fb2",
+  "Sum": "h1:SBiWbtvLV5o5hlV6ev2OpDnUlNAvlLMBera23XXy3f0=",
+  "GoModSum": "h1:G/2jKW1tkGBX3d2uJwm9LobcvdA8cquj4BP0eF4LAmI=",
+  "Origin": {
+    "VCS": "git",
+    "URL": "https://github.com/bassosimone/netstub",
+    "Hash": "323ef9359fb27f0cf67ed35ab937201674dc6469"
+  }
+}

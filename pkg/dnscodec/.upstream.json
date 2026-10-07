@@ -1,0 +1,11 @@
+{
+  "Path": "github.com/bassosimone/dnscodec",
+  "Version": "v0.0.0-20261005145128-388641c61fb4",
+  "Sum": "h1:66C5uWnSPYj3oZG/pd96seVUmiXuMvp4LkOMQBckyMY=",
+  "GoModSum": "h1:8be2gr/9QC3TX09dMfXh5i7f8kWiXln/eexZL7mxTPw=",
+  "Origin": {
+    "VCS": "git",
+    "URL": "https://github.com/bassosimone/dnscodec",
+    "Hash": "388641c61fb468e36cc3f89227d5845e11781884"
+  }
+}

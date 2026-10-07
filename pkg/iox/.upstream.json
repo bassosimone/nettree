@@ -1,0 +1,11 @@
+{
+  "Path": "github.com/bassosimone/iox",
+  "Version": "v0.0.0-20261005145813-ba7aa6d554ea",
+  "Sum": "h1:fGpo9kax9ZJ/t57IsH94+Xc0de0x+45vzfeEIF8da9k=",
+  "GoModSum": "h1:rl8AasJLNGMwDXpNv2slGqmyVKjZ//TSM3j767j6lWk=",
+  "Origin": {
+    "VCS": "git",
+    "URL": "https://github.com/bassosimone/iox",
+    "Hash": "ba7aa6d554ea5f800546b919939faabccc24121c"
+  }
+}
