@@ -43,7 +43,7 @@ mapfile -t owned_pins <<<"$mods"
 for pin in "${owned_pins[@]}"; do
 	orig_dir="$(go mod download -json "$pin" | jq -r .Dir)"
 	path="$(go mod download -json "$pin" | jq -r .Path)"
-	dirname="$(basename $path)"
+	dirname="$(basename "$path")"
 	rm -rf "pkg/$dirname"
 	mkdir -p pkg
 	cp -r "$orig_dir" "pkg/$dirname"
