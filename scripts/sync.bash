@@ -9,11 +9,9 @@ if [[ ! "$oldstable" =~ ^go(1\.[0-9]+)\.[0-9]+$ ]]; then
 	exit 1
 fi
 export GOTOOLCHAIN="$oldstable"
-echo "GOTOOLCHAIN=$oldstable" 1>&2
 
 # 2. create temporary directory.
 work="$(mktemp -d)"
-echo "work=$work" 1>&2
 trap 'rm -rf "$work"' EXIT
 
 # 3. create temporary throw-away module.
