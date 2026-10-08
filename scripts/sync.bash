@@ -25,6 +25,7 @@ for repo in "$@"; do
 done
 
 # 5. start afresh with this module.
+rm -rf pkg
 rm -f go.mod go.sum
 go mod init github.com/bassosimone/nettree
 
@@ -35,7 +36,6 @@ go get -v "${foreign_pins[@]}"
 git add go.mod go.sum
 
 # 7. copy all bassosimone modules in tree.
-rm -rf pkg
 mods="$(cd "$work" && go list -m all | sed -n '2,$p' | sed -e 's/ /@/' | grep bassosimone)"
 mapfile -t owned_pins <<<"$mods"
 for pin in "${owned_pins[@]}"; do
