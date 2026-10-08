@@ -26,7 +26,7 @@ for repo in "$@"; do
 done
 
 # 5. start afresh with this module.
-rm -rf pkg
+rm -rf pkg remotes
 rm -f go.mod go.sum
 go mod init github.com/bassosimone/nettree
 
@@ -47,9 +47,10 @@ for pin in "${owned_pins[@]}"; do
 	mkdir -p pkg
 	cp -r "$orig_dir" "pkg/$dirname"
 	chmod -R u+w "pkg/$dirname"
+	mkdir -p remotes
 	go mod download -json "$pin" |
 		jq '{Path, Version, Sum, GoModSum, Origin}' \
-			>"pkg/$dirname/.upstream.json"
+			>"remotes/$dirname.json"
 done
 
 # 8. cleanup the directories content.
