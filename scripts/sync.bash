@@ -51,12 +51,12 @@ for pin in "${owned_pins[@]}"; do
 	go mod download -json "$pin" |
 		jq '{Path, Version, Sum, GoModSum, Origin}' \
 			>"remotes/$dirname.json"
+	./scripts/makereadme.bash "$dirname"
 done
 
 # 8. cleanup the directories content.
 find pkg -type f -name go.mod -exec rm {} \;
 find pkg -type f -name go.sum -exec rm {} \;
-find pkg -type f -name README.md -exec rm {} \;
 find pkg -depth -type d -name .github -exec rm -rf {} \;
 
 # 9. add what survived.
