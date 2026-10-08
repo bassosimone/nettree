@@ -1,5 +1,7 @@
 # Curated Go Networking Libs
 
+[![GoDoc](https://pkg.go.dev/badge/github.com/bassosimone/nettree)](https://pkg.go.dev/github.com/bassosimone/nettree) [![Build Status](https://github.com/bassosimone/nettree/actions/workflows/go.yml/badge.svg)](https://github.com/bassosimone/nettree/actions) [![codecov](https://codecov.io/gh/bassosimone/nettree/branch/main/graph/badge.svg)](https://codecov.io/gh/bassosimone/nettree)
+
 This repository contains curated versions of the Go networking
 libraries that I maintain for fun. Whereas the actual libraries
 live at "HEAD" and have no tags, this repository has tags. In
