@@ -12,10 +12,10 @@ cat >"pkg/$dirname/README.md" <<EOF
 
 Automatic import of $path into nettree.
 
-- Import path: $path
+- Upstream module: $path
 - Version: $version
 - GitHub tree: $repoURL/tree/$commitHash
-- README.md: $repoURL/tree/$commitHash/README.md
+- README.md: $repoURL/blob/$commitHash/README.md
 - GitHub commit: $repoURL/commit/$commitHash
 
 To verify:
