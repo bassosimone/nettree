@@ -20,6 +20,7 @@ trap 'rm -rf "$work"' EXIT
 # 4. add each root dependency to the submodule trusting my local
 # monorepo remote main branches as the source of truth.
 for repo in "$@"; do
+	git -C "$HOME/src/$repo" fetch --prune
 	revision="$(git -C "$HOME/src/$repo" rev-parse remotes/origin/main)"
 	(cd "$work" && go get -v "$repo@$revision")
 done
