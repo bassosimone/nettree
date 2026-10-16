@@ -1,11 +1,11 @@
 {
   "Path": "github.com/bassosimone/minest",
-  "Version": "v0.0.0-20261006065427-c31e3377405b",
-  "Sum": "h1:MDrzJVjAQSHRWI7hc73UhBUaM6jZ1i/bX7tpfg17AXM=",
-  "GoModSum": "h1:aN7ZXNYJfRHlUdJZ3eK1WBxYJEbXVQnbN2CK7+ZYN/g=",
+  "Version": "v0.0.0-20261016121358-16a4dc5edc1d",
+  "Sum": "h1:xmxi936G3ipXy9cLD0IjeuWYKs9+ICZDKovY8atSfTQ=",
+  "GoModSum": "h1:QW5GPvX75ZFVb64sin69xPJs9LkAkDwqoAjhIlx7e1c=",
   "Origin": {
     "VCS": "git",
     "URL": "https://github.com/bassosimone/minest",
-    "Hash": "c31e3377405b6d1e57c9e5fee396bc7b241cef82"
+    "Hash": "16a4dc5edc1d43a080f54db2b32c5597ba537c62"
   }
 }

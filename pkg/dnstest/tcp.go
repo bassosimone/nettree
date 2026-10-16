@@ -23,18 +23,21 @@ var _ TCPListenConfig = &net.ListenConfig{}
 // This method PANICS on failure.
 func MustNewTCPServer(lc TCPListenConfig, address string, handler dns.Handler) *TCPServer {
 	listener := runtimex.PanicOnError1(lc.Listen(context.Background(), "tcp", address))
+	ready := make(chan struct{})
 	srv := &TCPServer{
 		address: listener.Addr().String(),
 		done:    make(chan struct{}),
 		srv: &dns.Server{
-			Listener: listener,
-			Handler:  handler,
+			Listener:          listener,
+			Handler:           handler,
+			NotifyStartedFunc: func() { close(ready) },
 		},
 	}
 	go func() {
 		srv.srv.ActivateAndServe() // in background
 		close(srv.done)
 	}()
+	<-ready
 	return srv
 }
 

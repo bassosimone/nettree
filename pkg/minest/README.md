@@ -3,13 +3,13 @@
 Automatic import of github.com/bassosimone/minest into nettree.
 
 - Upstream module: github.com/bassosimone/minest
-- Version: v0.0.0-20261006065427-c31e3377405b
-- GitHub tree: https://github.com/bassosimone/minest/tree/c31e3377405b6d1e57c9e5fee396bc7b241cef82
-- README.md: https://github.com/bassosimone/minest/blob/c31e3377405b6d1e57c9e5fee396bc7b241cef82/README.md
-- GitHub commit: https://github.com/bassosimone/minest/commit/c31e3377405b6d1e57c9e5fee396bc7b241cef82
+- Version: v0.0.0-20261016121358-16a4dc5edc1d
+- GitHub tree: https://github.com/bassosimone/minest/tree/16a4dc5edc1d43a080f54db2b32c5597ba537c62
+- README.md: https://github.com/bassosimone/minest/blob/16a4dc5edc1d43a080f54db2b32c5597ba537c62/README.md
+- GitHub commit: https://github.com/bassosimone/minest/commit/16a4dc5edc1d43a080f54db2b32c5597ba537c62
 
 To verify:
 
 ```bash
-go mod download -json github.com/bassosimone/minest@v0.0.0-20261006065427-c31e3377405b
+go mod download -json github.com/bassosimone/minest@v0.0.0-20261016121358-16a4dc5edc1d
 ```

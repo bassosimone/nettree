@@ -28,19 +28,22 @@ func MustNewTLSServer(lc TLSListenConfig, address string, cert tls.Certificate, 
 		Certificates: []tls.Certificate{cert},
 	}
 	tlsListener := tls.NewListener(listener, config)
+	ready := make(chan struct{})
 	srv := &TLSServer{
 		address: listener.Addr().String(),
 		done:    make(chan struct{}),
 		srv: &dns.Server{
-			Listener:  tlsListener,
-			Handler:   handler,
-			TLSConfig: config,
+			Listener:          tlsListener,
+			Handler:           handler,
+			TLSConfig:         config,
+			NotifyStartedFunc: func() { close(ready) },
 		},
 	}
 	go func() {
 		srv.srv.ActivateAndServe() // in background
 		close(srv.done)
 	}()
+	<-ready
 	return srv
 }
 

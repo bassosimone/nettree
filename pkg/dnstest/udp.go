@@ -27,18 +27,21 @@ var _ UDPListenConfig = &net.ListenConfig{}
 // This method PANICS on failure.
 func MustNewUDPServer(lc UDPListenConfig, address string, handler dns.Handler) *UDPServer {
 	pconn := runtimex.PanicOnError1(lc.ListenPacket(context.Background(), "udp", address))
+	ready := make(chan struct{})
 	srv := &UDPServer{
 		address: pconn.LocalAddr().String(),
 		done:    make(chan struct{}),
 		srv: &dns.Server{
-			PacketConn: pconn,
-			Handler:    handler,
+			PacketConn:        pconn,
+			Handler:           handler,
+			NotifyStartedFunc: func() { close(ready) },
 		},
 	}
 	go func() {
 		srv.srv.ActivateAndServe() // in background
 		close(srv.done)
 	}()
+	<-ready
 	return srv
 }
 
