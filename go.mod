@@ -1,10 +1,10 @@
 module github.com/bassosimone/nettree
 
-go 1.26.9
+go 1.26.10
 
 require (
 	github.com/miekg/dns v1.1.73
-	github.com/quic-go/quic-go v0.64.0
+	github.com/quic-go/quic-go v0.64.1
 	github.com/rogpeppe/go-internal v1.16.0
 	github.com/stretchr/testify v1.12.1
 	golang.org/x/net v0.61.0
