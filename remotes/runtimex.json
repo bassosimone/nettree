@@ -1,11 +1,11 @@
 {
   "Path": "github.com/bassosimone/runtimex",
-  "Version": "v0.0.0-20261005144844-77dc639b0e90",
-  "Sum": "h1:crpeakr4bPQGTsV25nbtVXB72cwfk1wnZc2HF3fE1KE=",
-  "GoModSum": "h1:2aW76skIZNS7ljOpIqU3eARVLmtb0AG/Gab4aegSkTA=",
+  "Version": "v0.0.0-20261113074051-8e818250d877",
+  "Sum": "h1:bf/g4kHzmIqdP0PuFzFRdi1fd/zdqGqDEXYLFDZh8/8=",
+  "GoModSum": "h1:ZPlomTmASo7JAfSnY4hBxzLul6apx3QJn15Z7Kg5o3k=",
   "Origin": {
     "VCS": "git",
     "URL": "https://github.com/bassosimone/runtimex",
-    "Hash": "77dc639b0e900873f6b09630df941218c2d31283"
+    "Hash": "8e818250d8774011d8ec692c11c4d43ec11e6ac7"
   }
 }

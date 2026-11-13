@@ -1,11 +1,11 @@
 {
   "Path": "github.com/bassosimone/dnsoverhttps",
-  "Version": "v0.0.0-20261026171632-0457bad55e25",
-  "Sum": "h1:eFTO+CiIG5L0rc9mkJfbxIa2L9MNErLvx3H6l8ZJXjw=",
-  "GoModSum": "h1:hkKkVK3Ge+m7+FCkSQZbir4vFCFISkgEWsCJ7GDGSlQ=",
+  "Version": "v0.0.0-20261113075702-01d4d14cb5ce",
+  "Sum": "h1:xzi2Dc2bynsZKpZClpdpIQzSeMZolKArR3ux+VnSw8s=",
+  "GoModSum": "h1:JZPgaOk7RD3vNGg7+yzUNlA6eA1iKDEOl5Z5RNvHffQ=",
   "Origin": {
     "VCS": "git",
     "URL": "https://github.com/bassosimone/dnsoverhttps",
-    "Hash": "0457bad55e255fc4f0a7047a784a900f56c8928a"
+    "Hash": "01d4d14cb5ceed94ed5abc6dd2a01b73be281795"
   }
 }

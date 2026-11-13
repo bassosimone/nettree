@@ -1,11 +1,11 @@
 {
   "Path": "github.com/bassosimone/dnstest",
-  "Version": "v0.0.0-20261016120535-fed9dc37652e",
-  "Sum": "h1:nqze2tqgtHCkTQbu5tHLZpF59HZX8ux5dGT6Kp47Wv4=",
-  "GoModSum": "h1:R8rFx5SMTZWPOQO6b9/HTZBx9fSpV0ByEHFufTiSdZM=",
+  "Version": "v0.0.0-20261113075000-073ffdd0f5a2",
+  "Sum": "h1:pqWXaMVmEkeav3zq4GV+idN3kkIldrqEqdV0N2PTGoQ=",
+  "GoModSum": "h1:Ay6vTJq0uyy+MxdxErdV4xkK89UY5Vn26IoGmTt4Sso=",
   "Origin": {
     "VCS": "git",
     "URL": "https://github.com/bassosimone/dnstest",
-    "Hash": "fed9dc37652edffaeea2a9ec7e036795e0c4d295"
+    "Hash": "073ffdd0f5a2c9bc693f953e9a675df627230687"
   }
 }

@@ -1,11 +1,11 @@
 {
   "Path": "github.com/bassosimone/iotest",
-  "Version": "v0.0.0-20261005145345-0eb37e4e40a1",
-  "Sum": "h1:HLphCy3Q8Hleao9SCQZWvELlthq2RrH5fXJeUp/zZPI=",
-  "GoModSum": "h1:iUFUxubsNTYvTyTJippuwVwOUY4oYyhrNyHfRvuKjn0=",
+  "Version": "v0.0.0-20261113074532-6d185f8c8be6",
+  "Sum": "h1:vBDNTe5qsXu3iND+0x/psMAenN45TGi4feHGdaKPh8A=",
+  "GoModSum": "h1:YircvutkeNiJ3UxskdMvPfUFzrciokF4/RK9I32nVBk=",
   "Origin": {
     "VCS": "git",
     "URL": "https://github.com/bassosimone/iotest",
-    "Hash": "0eb37e4e40a1760858f237e35a46aa73b688ac2a"
+    "Hash": "6d185f8c8be6bd2b298015f04b3f89093b434bfc"
   }
 }

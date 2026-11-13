@@ -3,13 +3,13 @@
 Automatic import of github.com/bassosimone/iotest into nettree.
 
 - Upstream module: github.com/bassosimone/iotest
-- Version: v0.0.0-20261005145345-0eb37e4e40a1
-- GitHub tree: https://github.com/bassosimone/iotest/tree/0eb37e4e40a1760858f237e35a46aa73b688ac2a
-- README.md: https://github.com/bassosimone/iotest/blob/0eb37e4e40a1760858f237e35a46aa73b688ac2a/README.md
-- GitHub commit: https://github.com/bassosimone/iotest/commit/0eb37e4e40a1760858f237e35a46aa73b688ac2a
+- Version: v0.0.0-20261113074532-6d185f8c8be6
+- GitHub tree: https://github.com/bassosimone/iotest/tree/6d185f8c8be6bd2b298015f04b3f89093b434bfc
+- README.md: https://github.com/bassosimone/iotest/blob/6d185f8c8be6bd2b298015f04b3f89093b434bfc/README.md
+- GitHub commit: https://github.com/bassosimone/iotest/commit/6d185f8c8be6bd2b298015f04b3f89093b434bfc
 
 To verify:
 
 ```bash
-go mod download -json github.com/bassosimone/iotest@v0.0.0-20261005145345-0eb37e4e40a1
+go mod download -json github.com/bassosimone/iotest@v0.0.0-20261113074532-6d185f8c8be6
 ```

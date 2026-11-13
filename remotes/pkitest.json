@@ -1,11 +1,11 @@
 {
   "Path": "github.com/bassosimone/pkitest",
-  "Version": "v0.0.0-20261005145452-7b85881f912d",
-  "Sum": "h1:sSnMO31joutMWujPwqs+scoRN5twRObMkk2XZRN71aE=",
-  "GoModSum": "h1:2KJWmQuaY/fn7rrufVu3EwbfqO5Py+oNj3ln9WknUmE=",
+  "Version": "v0.0.0-20261113074826-65c806423194",
+  "Sum": "h1:IcegZJbVOXg6aPiPh7F8YCSyUrF/KSlQfyXDGLzFoi0=",
+  "GoModSum": "h1:6cRIrIAQIVY+qmLbOYs0Gf1AjDPsbwM1UvApqlOX04c=",
   "Origin": {
     "VCS": "git",
     "URL": "https://github.com/bassosimone/pkitest",
-    "Hash": "7b85881f912dea41850e6a0a2c4b0de758c530b5"
+    "Hash": "65c8064231941337a55f2f33355b7ba217676e61"
   }
 }

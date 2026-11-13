@@ -1,11 +1,11 @@
 {
   "Path": "github.com/bassosimone/httptestx",
-  "Version": "v0.0.0-20261005145309-8a37350e882e",
-  "Sum": "h1:FUenSg9i0K8UiD0SII5ogoO56CZaUbxlo9lBXe3tSlg=",
-  "GoModSum": "h1:CXntY0x2Z10QR8jIjoaegN1Ptv+ib5hM5v+RtaHCCLw=",
+  "Version": "v0.0.0-20261113074458-2f8b36124905",
+  "Sum": "h1:ojpfdEPqu4hVyOVQCGDOiR7bPfzZHDUjfeTu3V3rDrs=",
+  "GoModSum": "h1:VjCr4C00SWxLOe+V5TIYr02WwSC03Ar2Mo8W4IKJveY=",
   "Origin": {
     "VCS": "git",
     "URL": "https://github.com/bassosimone/httptestx",
-    "Hash": "8a37350e882ee9ca44f4e0763f98b17178354e36"
+    "Hash": "2f8b36124905d795a11d4968e738776d0d04d337"
   }
 }
