@@ -30,11 +30,12 @@ rm -rf pkg remotes
 rm -f go.mod go.sum
 go mod init github.com/bassosimone/nettree
 
-# 6. install all non-bassosimone modules in a single command.
+# 6. pin all non-bassosimone modules to their version in `$work`.
 mods="$(cd "$work" && go list -m all | sed -n '2,$p' | sed -e 's/ /@/' | grep -v bassosimone)"
 mapfile -t foreign_pins <<<"$mods"
-go get -v "${foreign_pins[@]}"
-git add go.mod go.sum
+for pin in "${foreign_pins[@]}"; do
+	go mod edit -require="$pin"
+done
 
 # 7. copy all bassosimone modules in tree.
 mods="$(cd "$work" && go list -m all | sed -n '2,$p' | sed -e 's/ /@/' | grep bassosimone)"
@@ -66,6 +67,10 @@ git add ./pkg
 find pkg -type f -name \*.go -exec \
 	sed -i 's|"github.com/bassosimone/|"github.com/bassosimone/nettree/pkg/|' {} \;
 
-# 11. update go.mod go.sum and import changes
+# 11. update go.mod go.sum resolving minimum version
+# dependencies and import changes.
 go mod tidy
 git add .
+
+# 12. ensure that the tests pass
+go test -race -count 1 ./...
